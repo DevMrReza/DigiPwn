@@ -23,3 +23,8 @@ This script is intended **strictly for educational and ethical hacking purposes*
 ✔️ Always obtain **explicit permission** before testing any system.  
 ✔️ Use this tool **only in legal, ethical penetration testing scenarios**.  
 ✔️ Follow cybersecurity best practices and **responsible disclosure policies**.   
+
+## 📧 Contact  
+
+For questions or feedback:  
+- **Email:** qdyryr011@gmail.com
