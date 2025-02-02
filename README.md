@@ -49,8 +49,10 @@ This script is **strictly for educational and ethical hacking purposes**. It sho
 
 ## 🔑 **Ethical Guidelines**
 
-- ✔️ Always obtain **explicit authorization** before testing any system.  
-- ✔️ Use this tool **only in legal, ethical penetration testing environments**.  
+- ✔️ Always obtain **explicit authorization** before testing any system.
+  
+- ✔️ Use this tool **only in legal, ethical penetration testing environments**.
+  
 - ✔️ Adhere to **cybersecurity best practices** and **responsible disclosure policies**.  
 
 ---
