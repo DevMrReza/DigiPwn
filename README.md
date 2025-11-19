@@ -1,65 +1,153 @@
-# 🔐 **Penetration Testing Proof-of-Concept (PoC)**
+<div align="center">
 
-Welcome to the **Penetration Testing Proof-of-Concept (PoC)** repository! This script is designed for **cybersecurity research** and **ethical hacking**, utilizing the **DigiKeyboard** library to simulate a variety of security assessments such as file manipulation, encryption, Wi-Fi credential extraction, and program execution.
+# 🔐⚡ Penetration Testing Proof-of-Concept (PoC)
+### Advanced Red-Team Automation Using DigiKeyboard
 
----
+A high-impact PoC designed for **cybersecurity research**, **physical attack simulations**, and **ethical hacking**.  
+This repository demonstrates how USB-based automation can trigger rapid payload execution, credential extraction, system manipulation, and security bypass simulations.
 
-## ⚠️ **Disclaimer**  
-This script is **strictly for educational and ethical hacking purposes**. It should **only** be executed in **controlled environments** where you have **explicit authorization**. Unauthorized use for data tampering, malicious activities, or unauthorized access is **prohibited**. The **author assumes no responsibility** for any consequences arising from improper use.
+<br>
 
----
+<img src="https://img.shields.io/badge/STATUS-ACTIVE-brightgreen?style=for-the-badge">
+<img src="https://img.shields.io/badge/DEVICE-Digispark-orange?style=for-the-badge">
+<img src="https://img.shields.io/badge/USAGE-ETHICAL_ONLY-red?style=for-the-badge">
+<img src="https://img.shields.io/badge/SECURITY-RESEARCH-blue?style=for-the-badge">
 
-## 🚀 **Features**
+<br><br>
 
-- 🗑️ **File Operations**  
-  Simulates file deletion, modification, and other critical file system interactions.  
-
-- 🔒 **Encryption Demonstration**  
-  Implements basic encryption via system commands to demonstrate secure handling of data.  
-
-- 📶 **Wi-Fi Credential Extraction**  
-  Retrieves and exports saved Wi-Fi credentials for security analysis and testing.  
-
-- 📨 **Automated Messaging**  
-  Sends predefined messages to simulate potential phishing or social engineering attacks.  
-
-- 🔐 **Screen Lock Simulation**  
-  Demonstrates unauthorized access prevention mechanisms (e.g., screen lock).  
-
-- ▶️ **Remote Execution Simulation**  
-  Executes predefined programs to simulate remote code execution scenarios and test automation capabilities.  
+</div>
 
 ---
 
-## 🛠️ **Setup & Usage**
+## ⚠️ Legal Disclaimer
 
-1️⃣ **Install Dependencies:**  
-   Install the **DigiKeyboard** library and ensure your environment is set up correctly.  
+This project is intended **ONLY** for:
+- Authorized penetration testing  
+- Cybersecurity research  
+- Academic demonstrations  
+- Internal security teams  
 
-2️⃣ **Secure Environment:**  
-   Ensure you test this script in an **isolated environment** such as a virtual machine to prevent any accidental system damage.  
-
-3️⃣ **Upload & Deploy:**  
-   Flash the script onto a compatible device (e.g., **Digispark board**) for execution.  
-
-4️⃣ **Execution:**  
-   Connect the device to a test system, run the script, and analyze the output to understand the security implications.  
+**Unauthorized use is illegal.**  
+The author assumes **zero liability** for misuse, damage, or unlawful activity.  
+Use **only in isolated, controlled test environments (VMs, labs, sandboxes).**
 
 ---
 
-## 🔑 **Ethical Guidelines**
+## 🚀 Features Overview
 
-- ✔️ Always obtain **explicit authorization** before testing any system.
-  
-- ✔️ Use this tool **only in legal, ethical penetration testing environments**.
-  
-- ✔️ Adhere to **cybersecurity best practices** and **responsible disclosure policies**.  
+### 🗑️ 1. File System Manipulation  
+Simulates malware-like file interactions, including:
+- Creating files  
+- Modifying contents  
+- Deleting sensitive data  
+Used for demonstrating weak endpoint security.
+
+---
+
+### 🔒 2. Encryption / Obfuscation Demo  
+Executes encryption or obfuscation commands to show:
+- How fast data can be manipulated  
+- Why endpoint monitoring is essential  
 
 ---
 
-## 📧 **Contact**
-
-For any questions or feedback, feel free to reach out:  
-- **Email:** [qdyryr011@gmail.com](mailto:qdyryr011@gmail.com)
+### 📶 3. Wi-Fi Credential Extraction  
+Automatically retrieves stored Wi-Fi passwords for:
+- Security audits  
+- Weak configuration assessments  
+- Awareness training
 
 ---
+
+### 📨 4. Automated Messaging Payloads  
+Simulates:
+- Phishing automation  
+- Social engineering scripts  
+- Message injection attacks  
+
+---
+
+### 🔐 5. Lock Screen & Access Prevention  
+Demonstrates physical attack scenarios, such as:
+- Instant screen lock  
+- User disruption  
+- Unauthorized access protection
+
+---
+
+### ▶️ 6. Remote Code Execution (RCE Simulation)  
+Executes:
+- Local programs  
+- Scripts  
+- Hidden payloads  
+Useful for demonstrating privilege escalation or unattended execution risks.
+
+---
+
+## 🛠️ Setup & Deployment
+
+### 🔧 1) Install Dependencies  
+Ensure the **DigiKeyboard** library is installed in Arduino IDE:  
+`Tools → Manage Libraries → Search "DigiKeyboard"`
+
+### 💻 2) Flash the Code  
+Upload the PoC to a **Digispark USB** or compatible device.
+
+### 🧪 3) Always Use a Safe Lab  
+Recommended:
+- Virtual Machine (Windows 10/11)
+- VMware or VirtualBox
+- Host-only network
+- Snapshots enabled
+
+### ⚡ 4) Deploy the Payload  
+Insert the device → Payload executes instantly and automatically.
+
+---
+
+## 🧰 Recommended Lab Settings
+
+| Component | Suggested Option |
+|----------|------------------|
+| Virtual Machine | Windows 10 / 11 |
+| Hypervisor | VMware Workstation / VirtualBox |
+| Network | Host-Only (Safe) |
+| Monitoring | ProcMon + Wireshark |
+| Rollback | VM Snapshots Enabled |
+
+---
+
+## 🎯 Best Use Cases
+
+✔️ Red-Team Physical Attack Simulation  
+✔️ USB HID Attack Demonstrations  
+✔️ Malware Research & Prevention Training  
+✔️ Corporate Security Workshops  
+✔️ Ethical Hacking Education  
+✔️ Endpoint Protection Testing  
+
+---
+
+## 🔑 Ethical Guidelines
+
+To remain compliant and ethical:
+
+- You **MUST** have explicit written permission.
+- Only test systems you **own** or are authorized to evaluate.
+- Follow **responsible disclosure** principles.
+- Use only inside **VMs, lab environments, and sandboxes**.
+- Never deploy on a production or public machine.
+
+---
+
+## 📧 Contact
+
+For questions, suggestions, or collaborations:
+
+**Email:** qdyryr011@gmail.com  
+
+<br>
+
+<div align="center">
+
+</div>
